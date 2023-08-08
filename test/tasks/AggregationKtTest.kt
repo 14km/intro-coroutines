@@ -17,6 +17,7 @@ class AggregationKtTest {
             User("Alice", 8),
             User("Charlie", 3)
         )
+
         Assert.assertEquals("Wrong result for 'aggregation'", expected, actual)
     }
 }
